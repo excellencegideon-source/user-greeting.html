@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cars Array</title>
+
+    <script>
+        let cars = ["Toyota", "Honda", "Mazda", "Mitsubishi", "Tesla", "Lexus"];
+
+        console.log("First car:", cars[0]);
+
+        console.log("Last car:", cars[cars.length - 1]);
+
+        // Add Mercedes-Benz to the array
+        cars.push("Mercedes-Benz");
+        
+        console.log("Updated Array:", cars);
+
+        // Display the car names vertically on the webpage
+        document.write("<h2 style=\"font-size:20px;\">List of Cars</h2>");
+
+        for (let i = 0; i < cars.length; i++) {
+            console.log(cars[i]);
+            document.write(cars[i] + "<br>");
+        }
+    </script>
+
+</head>
+</html>
